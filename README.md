@@ -9,6 +9,6 @@ Os campos que dever ser envaidos no body da requisição são, email, username e
 <strong>Passo 3:</strong> É necessaário colocar o token no header da requisição, colocamos em Authorization -> Type -> Bearer Token -> Colocamos o token gerado ou
 vamos em Headers criamos um campo Authorization e no campo value escrevemos bearer + o token.
 
-<strong>Passo 4:</strong> Com o token no header podemos utilizar a API de alunos, turmas e users atraves da URL básica "http://localhost:8080/api".
+<strong>Passo 4:</strong> Com o token no header podemos utilizar a API de alunos, turmas ,users, projetos  e professores atraves da URL básica "http://localhost:8080/api".
 
 Podemos usar a API do Swagger, disponível em "http://localhost:8080/swagger-ui.html".
