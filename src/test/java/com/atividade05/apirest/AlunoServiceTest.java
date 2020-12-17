@@ -41,7 +41,7 @@ public class AlunoServiceTest {
 	}
 
 	@BeforeEach
-	public void setup() {
+	public void setup() {	 
 		Aluno aluno = new Aluno("Aluno teste");
 	
 	Mockito.when(alunoRepository.findById(aluno.getIdAluno()))
