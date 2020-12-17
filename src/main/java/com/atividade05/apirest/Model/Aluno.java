@@ -20,9 +20,14 @@ public class Aluno implements Serializable {
 
 	@Column(name = "Nome_Aluno")
 	private String nomeAluno;
-	
+
 	public Aluno() {
 		super();
+	}
+
+	public Aluno(String nomeAluno) {
+		super();
+		this.nomeAluno = nomeAluno;
 	}
 
 	public Aluno(String nomeAluno, Integer idAluno) {
